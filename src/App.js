@@ -24,7 +24,7 @@ function App() {
   ];
   return (
     <div>
-      <h1> CJ CODES PAGE</h1>
+      <h1> EXPENSE TRACKER</h1>
       <ExpenseItem
         title={expenses[0].title}
         amount={expenses[0].amount}
