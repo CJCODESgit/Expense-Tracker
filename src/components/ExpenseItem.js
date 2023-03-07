@@ -11,7 +11,7 @@ function ExpenseItem(props) {
         <div className="expense-item__price">₦{props.amount}</div>
       </div>
     </div>
-  );
+  ); 
 }
 
 export default ExpenseItem;
