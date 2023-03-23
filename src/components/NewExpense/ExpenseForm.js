@@ -7,11 +7,11 @@ return (
     <div className="new-expense__controls">
         <div className="new-expense__control">
             <label>Title</label>
-            <input type='text' />
+            <input type='text' placeholder="what did you spend on this time, huh?" />
         </div>
         <div className="new-expense__control">
             <label>Amount</label>
-            <input type='number' min="0.01" step="0.01" />
+            <input type='number' min="0.01" step="0.01" placeholder="not your life savings mate"/>
         </div>
         <div className="new-expense__control">
             <label>Date</label>
