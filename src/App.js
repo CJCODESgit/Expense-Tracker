@@ -26,13 +26,13 @@ const App = () => {
       id: "e4",
       title: "New Desk",
       amount: 450,
-      date: new Date(2021, 5, 12),
+      date: new Date(2021, 4, 6),
     },
      {
       id: "e5",
       title: "Keyboard and Mouse",
       amount: 650,
-      date: new Date(2021, 6, 12),
+      date: new Date(2021, 6, 15),
     },
   ];
 
