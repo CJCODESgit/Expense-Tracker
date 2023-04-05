@@ -1,5 +1,5 @@
 .expenses-filter {
-  color: white;
+  color: rgb(251, 251, 251);
   padding: 0 1rem;
 }
 
@@ -21,4 +21,6 @@
   padding: 0.5rem 3rem;
   font-weight: bold;
   border-radius: 6px;
+  color: white;
+  background-color: #40005d;
 }
