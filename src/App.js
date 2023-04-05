@@ -6,7 +6,7 @@ import Expenses from "./components/Expenses/Expenses";
 const DUMMY_EXPENSES = [
     {
       id: "e1", 
-      title: "Starlink subscription",
+      title:  "Starlink subscription",
       amount: 94.12,
       date: new Date(2020, 7, 14),
     },
