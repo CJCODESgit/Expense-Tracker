@@ -14,7 +14,7 @@ const DUMMY_EXPENSES = [
       id: "e2",
       title: "CPU Build",
       amount: 799.49,
-      date: new Date(2021, 2, 12),
+      date: new Date(2019, 2, 12),
      },
     {
       id: "e3",
@@ -26,7 +26,7 @@ const DUMMY_EXPENSES = [
       id: "e4",
       title: "New Desk",
       amount: 450,
-      date: new Date(2021, 4, 6),
+      date: new Date(2022, 4, 6),
     },
      {
       id: "e5",
