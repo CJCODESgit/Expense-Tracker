@@ -11,9 +11,12 @@ const Expenses = (props) => {
       setFilteredYear(selectedYear);
   }
 
-  const filteredExpenses = props.items.filter(expense => {
-    return expense.date.getFullYear().toString() === filteredYear;
-  });
+ const filteredExpenses = props.items.filter(expense =>
+  filteredYear === "all"
+    ? true // include all expenses
+    : expense.date.getFullYear().toString() === filteredYear // filter by year
+);
+
 
     return (
       <div>
@@ -29,6 +32,8 @@ const Expenses = (props) => {
       date={expense.date}
     />
     )) }
+
+    
 
       
     </Card>
