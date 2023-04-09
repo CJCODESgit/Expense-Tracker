@@ -49,8 +49,6 @@ if(filteredExpenses.length > 0) {
     )) } */}
 
     
-
-      
     </Card>
     </div>
     )
