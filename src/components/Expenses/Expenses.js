@@ -5,7 +5,7 @@ import ExpenseItem from './ExpenseItem';
 import ExpensesFilter from './ExpenseFilter';
 
 const Expenses = (props) => {
-  const [filteredYear, setFilteredYear] = useState('2019');
+  const [filteredYear, setFilteredYear] = useState('all');
 
   const filterChangeHandler = selectedYear => {
       setFilteredYear(selectedYear);
