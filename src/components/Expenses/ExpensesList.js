@@ -17,7 +17,7 @@ return <ul className="expenses-list">
       amount={expense.amount}
       date={expense.date}
     />
-    ))};
+    ))}
 </ul>
 };
 

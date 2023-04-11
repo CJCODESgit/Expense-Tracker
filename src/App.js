@@ -28,12 +28,7 @@ const DUMMY_EXPENSES = [
       amount: 450,
       date: new Date(2022, 4, 6),
     },
-     {
-      id: "e5",
-      title: "Keyboard and Mouse",
-      amount: 650,
-      date: new Date(2021, 6, 15),
-    },
+     
   ];
 
 const App = () => {
